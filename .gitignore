@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#CKEditor
+config/ckeditor/
+
 # C extensions
 *.so
 
@@ -85,7 +88,7 @@ celerybeat-schedule
 
 # virtualenv
 .venv
-venv/
+.env/
 ENV/
 .vscode
 # Spyder project settings
@@ -107,6 +110,7 @@ media/
 *.pyc
 *.db
 *.pid
+files/
 
 # Ignore Django Migrations in Development if you are working on team
 
